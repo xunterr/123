@@ -1,0 +1,352 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Student1" at "2026-11-03T08:39:56.2067098Z"
+Built from '6000.4/staging' branch; Version is '6000.4.7f1 (f3c3c4248748) revision 15975364'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 7501 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-03T08:39:56Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Student/123
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53460
+-licensingIpc
+LicenseClient-Student1
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Student/123
+C:/Users/Student/123
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [11508]  Target information:
+
+Player connection [11508]  * "[IP] 192.168.18.162 [Port] 0 [Flags] 2 [Guid] 1802503717 [EditorId] 1802503717 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-151) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11508] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11508] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Student1"
+[Licensing::IpcConnector] LicenseClient-Student1 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Student1-6000.4.7" at "2026-11-03T08:40:00.7609573Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17032, path: "C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              ba1feb88d4934a0bb834153d4778b735
+  Correlation Id:          915fe46b9f8d8e68946a8154a27b9f6a
+  External correlation Id: 435223122300232890
+  Machine Id:              uQ2gw2SgC5s8eiU9/uurttGiIr8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Student1-6000.4.7" (connect: 0.01s, validation: 0.01s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Student1-6000.4.7-notifications" at "2026-11-03T08:40:00.8015032Z"
+[Licensing::Module] Licensing Background thread has ended after 4.60s
+[Licensing::Module] Licensing is initialized (took 4.10s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872906121825-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 302.40 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 11.67 ms.
+Initialize engine version: 6000.4.7f1 (f3c3c4248748)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Student/123/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:          ATI
+    VRAM:            3750 MB
+    App VRAM Budget: 3821 MB
+    Driver:          31.0.21914.8004
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.010939 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.213 seconds
+Domain Reload Profiling: 2624ms
+	BeginReloadAssembly (399ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (226ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (399ms)
+		AnalyzeDomain (615ms)
+			TypeCache.Refresh (612ms)
+				TypeCache.ScanAssembly (568ms)
+	FinalizeReload (1216ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (201ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (231ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly VuforiaPackageTests.dll at Library/ScriptAssemblies/VuforiaPackageTests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 21.90 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.85 ms, found 7 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.697 seconds
+Domain Reload Profiling: 4219ms
+	BeginReloadAssembly (564ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (252ms)
+	LoadAllAssembliesAndSetupDomain (1571ms)
+		LoadAssemblies (1219ms)
+		AnalyzeDomain (685ms)
+			TypeCache.Refresh (569ms)
+				TypeCache.ScanAssembly (501ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1698ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			BeforeProcessingInitializeOnLoad (327ms)
+			ProcessInitializeOnLoadAttributes (736ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 14.73 ms, found 7 plugins.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4199 unused Assets / (1.2 MB). Loaded Objects now: 4900.
+Memory consumption went from 104.2 MB to 103.0 MB.
+Total: 21.504800 ms (FindLiveObjects: 1.947700 ms CreateObjectMapping: 1.684000 ms MarkObjects: 11.932400 ms  DeleteObjects: 5.931700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 354.636702 seconds.
+  path: Assets/Editor/Vuforia/ForPrint/ImageTargets/target_images_USLetter.pdf
+  importAddress: Guid(e822de06b1e7abf4c9c199de2942c719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ForPrint/ImageTargets/target_images_USLetter.pdf using Guid(e822de06b1e7abf4c9c199de2942c719) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4b3b95d3dcd4a75d0ed9667828a99518') in 0.1590182 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b82e437d5e796e50617c622e9e354e11 DependenciesID=acff3d0d92a6707f566cdae1d646892a StaticDependenciesID=daf974fadd801b1e68c6623126aeac5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Editor/Vuforia/ForPrint/MultiTarget/mars_box_USLetter.pdf
+  importAddress: Guid(fc373d9b39a416f438ca99ae10f8d3de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ForPrint/MultiTarget/mars_box_USLetter.pdf using Guid(fc373d9b39a416f438ca99ae10f8d3de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f4a72f36903b4f0bd85ceb1de4a331f') in 0.0318878 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6430f75089607ba8c1a60f74390c5685 DependenciesID=4d2b89f7179b8556484568223e480f93 StaticDependenciesID=feda4ee1b49a2086df9a71226e613486 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  importAddress: Guid(2d230df1415e65046b22347072432787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(2d230df1415e65046b22347072432787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b43bfa8f01148f86adedc65863da342f') in 0.0627133 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5fcb7cc2c20a6e14dd32aba4ac7f741 DependenciesID=046e17772297a10aac081f02d852f853 StaticDependenciesID=884cb3fd9c489120135983d2d5fa24be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Animations/PlayerController.controller
+  importAddress: Guid(d714a454697797047a3aaa859fc462f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/PlayerController.controller using Guid(d714a454697797047a3aaa859fc462f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '36e3d4e80c1270251a925c84699b243f') in 0.0635838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb24dba195b81bb9cb12e89bad39abe5 DependenciesID=ee6be23776f616d7b8767b50c62d5bda StaticDependenciesID=804bf737e78ac20d400f1e0ce73c069f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Editor/Vuforia/ForPrint
+  importAddress: Guid(44f8302d27a65c3418ec2fc90f4a81dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ForPrint using Guid(44f8302d27a65c3418ec2fc90f4a81dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12b7016d08d9e601ed46c7d9b89c6ce9') in 0.0213905 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9b0c15f06602cc2e25ca89cd2ec728f DependenciesID=7c2ca17a8c4355b8b92c3558c33a01bc StaticDependenciesID=71704eb6d5945a78aadaf50bbb15e2fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Editor/Vuforia/ForPrint/CylinderTarget/cylinder_booster_USLetter.pdf
+  importAddress: Guid(78eb5653c5b77844196a06006d678259) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ForPrint/CylinderTarget/cylinder_booster_USLetter.pdf using Guid(78eb5653c5b77844196a06006d678259) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'de9c806ce4c46e0d0ad9b6ad124bb3d6') in 0.0231672 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c05d9ab0c01d072f2b7be3d97fd487c DependenciesID=477313a80fcee31800b2f7b65bb74287 StaticDependenciesID=84f1ff5c9ad008d9adde801514b97f8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Editor/Vuforia/ForPrint/ImageTargets
+  importAddress: Guid(318ac27b67500ea4498f806a3d7df7e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ForPrint/ImageTargets using Guid(318ac27b67500ea4498f806a3d7df7e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '81bbb3a614c2c4f834d289377f275d6c') in 0.0274595 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5529be41117939d3b353797e2c3f62af DependenciesID=9cb299689cd8fb94416e7543c4a6c4d8 StaticDependenciesID=c027e74ff35050f568a1d1f5555bd5e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/StreamingAssets
+  importAddress: Guid(72ecbb38408dd4a359615d7c990a628a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StreamingAssets using Guid(72ecbb38408dd4a359615d7c990a628a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'abbffccf3e1ec61c4a4e89bba2f62558') in 0.0265844 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed3e529acc8ca0047c6648c61b3b6db4 DependenciesID=6ffcaa9500ad533bb4f2deb39d1310f6 StaticDependenciesID=011e9088c9a155ca05c7f1ad815bc01e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/StreamingAssets/Vuforia/VuforiaMars_Images.dat
+  importAddress: Guid(e8ea1fa6394e8d94893c329a44c9a340) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StreamingAssets/Vuforia/VuforiaMars_Images.dat using Guid(e8ea1fa6394e8d94893c329a44c9a340) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1866cc0e8b26fe7cc2a0939ddd10c5da') in 0.0387079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46e932da75c88b44e88ab64d032e7a0c DependenciesID=70c12d0246d7faec4b677af42fec46b6 StaticDependenciesID=90e7a462831fdec0631ea46be711d376 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Top_scaled.jpg
+  importAddress: Guid(88ae6815c2214b71b7e8e53efddf0b22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Top_scaled.jpg using Guid(88ae6815c2214b71b7e8e53efddf0b22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b8ecbba09a14519c2e01965f2fe6c3f5') in 0.2357046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cddba0a0520a60112f64010cc9bc0b1 DependenciesID=fdfe983ae9a04e0fab320da49362ed6f StaticDependenciesID=6d33a3ca67a0c2b307d12c205fd71c53 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images
+  importAddress: Guid(4ab1e2e72a52218429d2dc18bab3b618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images using Guid(4ab1e2e72a52218429d2dc18bab3b618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '50fa3c9b358a1921f75ed1171c47db54') in 0.0342153 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41da6865d7b384fed77a6b75c48a024f DependenciesID=5ad20542b5575b5064c5e4301126b70b StaticDependenciesID=3cbe9f507fb042022df47d774f46a56d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/StreamingAssets/Vuforia
+  importAddress: Guid(eab28fbba74990244b40f30d8e190ead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/StreamingAssets/Vuforia using Guid(eab28fbba74990244b40f30d8e190ead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0a251e174421d150a21061c0c638806a') in 0.0334528 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdc28c895fc15f3780a30eb880a06a70 DependenciesID=f1499a856285fa2b8469180b7c11ca39 StaticDependenciesID=3d4910cfababa93375b003517a3d8a98 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Body_scaled.jpg
+  importAddress: Guid(f930368b2014406d9fc39e0bc4925f04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Body_scaled.jpg using Guid(f930368b2014406d9fc39e0bc4925f04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fae242c52c061b81f5979d48f07f01a5') in 0.0541598 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5695eb64ab923cb0bf43557d4729fcee DependenciesID=45e2fc2cf898e395867ce952e5c50926 StaticDependenciesID=bbd7db40e0ffaa37b7b563a383ae68e3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Editor/Vuforia/ForPrint/MultiTarget
+  importAddress: Guid(f114e6025da31c947bc12a0004f00b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ForPrint/MultiTarget using Guid(f114e6025da31c947bc12a0004f00b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '10ba6f14c1e80c3e575b55226ebf2cd5') in 0.0221894 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aef77041dd7f861a9f8464e25cd2e556 DependenciesID=313705247c8e3cb303443fa83299a424 StaticDependenciesID=defdf973d606b258bb3c213e72d1ec37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg
+  importAddress: Guid(4381073313ab7ea4f905979151a55156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg using Guid(4381073313ab7ea4f905979151a55156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc16f0c918ec553f6a13783819d68347') in 0.0502394 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9267992ea12b82677f0d10131ff49b17 DependenciesID=17cf4e3976569454f8b05cfff3f9f364 StaticDependenciesID=4ed1afa8535c0abba5309f386c6496a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

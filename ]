@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+    public Joystick leftJoystick;
+    public Joystick rightJoystick;
+
+    void Start()
+    {
+               
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector3 playerMovement = new Vector3(rightJoystick.Horizontal, 0, rightJoystick.Vertical);
+        Vector3 movablesMovement = new Vector3(leftJoystick.Horizontal, 0, leftJoystick.Vertical);
+    }
+}
